@@ -10,11 +10,21 @@ DevFlow·AI is a technical blog built with Hugo Extended + PaperMod theme, focus
 
 ### Local Development
 ```bash
+# Quick start (recommended)
+./dev
+
+# Create new post interactively
+./new
+
+# Or create post with options
+./new "My Post Title" -d "Description" -t "tag1,tag2"
+
+# Or manually:
 # Install Hugo Module dependencies
 hugo mod tidy
 
 # Start local development server (includes drafts)
-hugo server -D
+hugo server -D -e development
 
 # Build production site
 hugo --gc --minify
