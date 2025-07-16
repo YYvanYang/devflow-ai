@@ -1,5 +1,5 @@
 {
-    "name": "devflow-ai",
+    "name": "devflow",
     "compatibility_date": "2025-07-16",
     "main": "src/worker.js",
     "build": {
