@@ -1,4 +1,3 @@
-````markdown
 # DevFlow·AI
 
 > **在 JS、CSS 与智能代理的涌流中划桨  
@@ -32,7 +31,7 @@ hugo mod tidy
 
 # 启动本地服务器（含草稿）
 hugo server -D
-````
+```
 
 浏览器访问 [http://localhost:1313](http://localhost:1313) 查看效果，修改内容将自动热更新。
 
@@ -102,8 +101,4 @@ devflow/
 
 ## License
 
-MIT © 2025 Your Name
-
-```
-::contentReference[oaicite:0]{index=0}
-```
+MIT © 2025 Yvan
