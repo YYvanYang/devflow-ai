@@ -1,5 +1,25 @@
 [[main]]
+  name    = "首页"
+  pageRef = "/"
+  weight  = 10
+
+[[main]]
+  name    = "归档"
+  pageRef = "/archives/"
+  weight  = 20
+
+[[main]]
+  name    = "搜索"
+  pageRef = "/search/"
+  weight  = 30
+
+[[main]]
+  name    = "标签"
+  pageRef = "/tags/"
+  weight  = 40
+
+[[main]]
   identifier = "about"
   name       = "关于"
-  url        = "/about/"
-  weight     = 10
+  pageRef    = "/about/"
+  weight     = 50

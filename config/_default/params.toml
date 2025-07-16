@@ -1,7 +1,40 @@
 # ——— PaperMod 专用 ———
 [homeInfoParams]
-Title    = "DevFlow·AI"
-Subtitle = "在 JS、CSS 与智能代理的涌流中划桨，分享一线前端工程实践与自动化工作流"
+Title = "DevFlow·AI"
+Content = """
+👋 欢迎来到 DevFlow·AI 技术博客！
 
-ShowReadingTime   = true
-defaultTheme      = "auto"   # 跟随系统深浅色
+在 JS、CSS 与智能代理的涌流中划桨，分享一线前端工程实践与自动化工作流。
+
+- **前端开发** - 现代 Web 技术栈实践经验
+- **AI 辅助编程** - Cursor、Claude Code、Kiro 等智能工具应用
+- **自动化工作流** - 提升开发效率的工具链和流程
+"""
+
+# 显示设置
+ShowReadingTime = true
+defaultTheme = "auto"   # 跟随系统深浅色
+ShowShareButtons = true
+displayFullLangName = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowRssButtonInSectionTermList = true
+ShowAllPagesInArchive = true
+ShowPageNums = true
+ShowToc = true
+enableEmoji = true
+
+# 主要内容区域
+mainsections = ["posts"]
+
+# 社交链接
+[[socialIcons]]
+name = "github"
+title = "查看源码"
+url = "https://github.com/yourname/devflow"
+
+[[socialIcons]]
+name = "rss"
+title = "订阅 RSS"
+url = "/index.xml"
