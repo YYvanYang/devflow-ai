@@ -1,0 +1,17 @@
+baseURL         = "https://devflow.950288.xyz/"
+defaultContentLanguage = "zh"
+languageCode    = "zh-CN"
+title           = "DevFlow·AI"
+# 输出格式
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+# Hugo Module 本身的声明（仍需）
+[module]
+  [[module.imports]]
+    path = "github.com/adityatelange/hugo-PaperMod"
+
+[pagination]
+  disableAliases = false
+  pagerSize = 10
+  path = 'page'

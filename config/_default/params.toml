@@ -1,0 +1,7 @@
+# ——— PaperMod 专用 ———
+[homeInfoParams]
+Title    = "DevFlow·AI"
+Subtitle = "在 JS、CSS 与智能代理的涌流中划桨，分享一线前端工程实践与自动化工作流"
+
+ShowReadingTime   = true
+defaultTheme      = "auto"   # 跟随系统深浅色

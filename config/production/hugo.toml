@@ -1,0 +1,2 @@
+# config/production/hugo.toml
+googleAnalytics = "G-XXXXXXXXXX"
